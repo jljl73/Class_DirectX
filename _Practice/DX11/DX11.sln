@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxproj", "{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{38B1D496-A95E-4B94-9B3A-1D7664742B5B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22} = {5DBCA00A-B4F9-414E-98CE-DA99207CAF22}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shaders", "_Shaders", "{84574B79-094E-4ECE-8214-A8DCA6911129}"
+	ProjectSection(SolutionItems) = preProject
+		..\_Shaders\000_Header.fx = ..\_Shaders\000_Header.fx
+		..\_Shaders\000_Light.fx = ..\_Shaders\000_Light.fx
+		..\_Shaders\000_Model.fx = ..\_Shaders\000_Model.fx
+		..\_Shaders\000_Terrain.fx = ..\_Shaders\000_Terrain.fx
+		..\_Shaders\001_vertex.fx = ..\_Shaders\001_vertex.fx
+		..\_Shaders\002_Rect.fx = ..\_Shaders\002_Rect.fx
+		..\_Shaders\003_World.fx = ..\_Shaders\003_World.fx
+		..\_Shaders\004_Quad.fx = ..\_Shaders\004_Quad.fx
+		..\_Shaders\005_Texture.fx = ..\_Shaders\005_Texture.fx
+		..\_Shaders\006_Terrain.fx = ..\_Shaders\006_Terrain.fx
+		..\_Shaders\007_Mesh.fx = ..\_Shaders\007_Mesh.fx
+		..\_Shaders\008_Texture.fx = ..\_Shaders\008_Texture.fx
+		..\_Shaders\009_Terrain.fx = ..\_Shaders\009_Terrain.fx
+		..\_Shaders\010_Terrain.fx = ..\_Shaders\010_Terrain.fx
+		..\_Shaders\011_Terrain.fx = ..\_Shaders\011_Terrain.fx
+		..\_Shaders\012_TerrainGridLine.fx = ..\_Shaders\012_TerrainGridLine.fx
+		..\_Shaders\013_Terrain_Splatting.fx = ..\_Shaders\013_Terrain_Splatting.fx
+		..\_Shaders\014_Model.fx = ..\_Shaders\014_Model.fx
+		..\_Shaders\015_Mesh.fx = ..\_Shaders\015_Mesh.fx
+		..\_Shaders\016_Model.fx = ..\_Shaders\016_Model.fx
+		..\_Shaders\017_Billboard.fx = ..\_Shaders\017_Billboard.fx
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelExport", "ModelExport\ModelExport.vcxproj", "{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22} = {5DBCA00A-B4F9-414E-98CE-DA99207CAF22}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}.Debug|x64.ActiveCfg = Debug|x64
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}.Debug|x64.Build.0 = Debug|x64
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}.Debug|x86.ActiveCfg = Debug|Win32
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}.Debug|x86.Build.0 = Debug|Win32
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}.Release|x64.ActiveCfg = Release|x64
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}.Release|x64.Build.0 = Release|x64
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}.Release|x86.ActiveCfg = Release|Win32
+		{5DBCA00A-B4F9-414E-98CE-DA99207CAF22}.Release|x86.Build.0 = Release|Win32
+		{38B1D496-A95E-4B94-9B3A-1D7664742B5B}.Debug|x64.ActiveCfg = Debug|x64
+		{38B1D496-A95E-4B94-9B3A-1D7664742B5B}.Debug|x64.Build.0 = Debug|x64
+		{38B1D496-A95E-4B94-9B3A-1D7664742B5B}.Debug|x86.ActiveCfg = Debug|Win32
+		{38B1D496-A95E-4B94-9B3A-1D7664742B5B}.Debug|x86.Build.0 = Debug|Win32
+		{38B1D496-A95E-4B94-9B3A-1D7664742B5B}.Release|x64.ActiveCfg = Release|x64
+		{38B1D496-A95E-4B94-9B3A-1D7664742B5B}.Release|x64.Build.0 = Release|x64
+		{38B1D496-A95E-4B94-9B3A-1D7664742B5B}.Release|x86.ActiveCfg = Release|Win32
+		{38B1D496-A95E-4B94-9B3A-1D7664742B5B}.Release|x86.Build.0 = Release|Win32
+		{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}.Debug|x64.ActiveCfg = Debug|x64
+		{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}.Debug|x64.Build.0 = Debug|x64
+		{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}.Debug|x86.ActiveCfg = Debug|Win32
+		{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}.Debug|x86.Build.0 = Debug|Win32
+		{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}.Release|x64.ActiveCfg = Release|x64
+		{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}.Release|x64.Build.0 = Release|x64
+		{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}.Release|x86.ActiveCfg = Release|Win32
+		{17700CDD-A7B4-4CA4-8C1E-E0BF4EBCC373}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92F03AAF-0CE4-42F3-BD9F-D1CDD7327C82}
+	EndGlobalSection
+EndGlobal

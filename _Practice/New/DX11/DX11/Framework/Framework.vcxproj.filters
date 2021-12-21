@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Renders">
+      <UniqueIdentifier>{ea89a304-ab7f-44ee-8b26-74d49d992da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{9dd4788c-2153-4433-a26c-301f14aa2cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{486a2620-2f1d-49ff-899f-08f172a22c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{521f2681-3bce-4ae2-8352-673676d7c240}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

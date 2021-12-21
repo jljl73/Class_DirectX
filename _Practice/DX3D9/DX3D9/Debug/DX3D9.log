@@ -1,0 +1,9 @@
+﻿  cGrid.cpp
+d:\directx\_practice\dx3d9\dx3d9\cgrid.cpp(63): warning C4316: 'cGizmo': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+d:\directx\_practice\dx3d9\dx3d9\cgrid.cpp(68): warning C4316: 'cGizmo': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+d:\directx\_practice\dx3d9\dx3d9\cgrid.cpp(73): warning C4316: 'cGizmo': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+  cMainGame.cpp
+d:\directx\_practice\dx3d9\dx3d9\cmaingame.cpp(48): warning C4316: 'cCubePC': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+d:\directx\_practice\dx3d9\dx3d9\cmaingame.cpp(51): warning C4316: 'cCubeMan': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+  코드를 생성하고 있습니다...
+  DX3D9.vcxproj -> D:\DirectX\_Practice\DX3D9\Debug\DX3D9.exe
