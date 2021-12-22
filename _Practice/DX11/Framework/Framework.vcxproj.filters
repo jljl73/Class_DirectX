@@ -153,6 +153,9 @@
     <ClCompile Include="Environment\Billboard.cpp">
       <Filter>Environment</Filter>
     </ClCompile>
+    <ClCompile Include="Environment\Sky.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Renders\Context.h">
@@ -274,6 +277,9 @@
       <Filter>Model</Filter>
     </ClInclude>
     <ClInclude Include="Environment\Billboard.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\Sky.h">
       <Filter>Environment</Filter>
     </ClInclude>
   </ItemGroup>
