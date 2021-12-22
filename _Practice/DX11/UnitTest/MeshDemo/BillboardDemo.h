@@ -16,6 +16,7 @@ class BillboardDemo : public IExecute
 
 private:
 	class Billboard* billboard;
+	class Sky* sky;
 
 	Shader* shader;
 
@@ -35,6 +36,8 @@ private:
 
 	Model* model;
 	ModelRender* modelRender;
+
+
 
 };
 

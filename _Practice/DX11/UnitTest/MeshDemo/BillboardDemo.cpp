@@ -1,6 +1,7 @@
 #include "Framework.h"
 #include "BillboardDemo.h"
 #include "Environment/Billboard.h"
+#include "Environment/Sky.h"
 
 void BillboardDemo::Initialize()
 {
@@ -15,6 +16,8 @@ void BillboardDemo::Initialize()
 		billboard->Position(15, 5, 0);
 		billboard->Scale(10, 10, 10);
 	}
+
+	sky = new Sky();
 
 
 	// : mesh
@@ -71,6 +74,8 @@ void BillboardDemo::Initialize()
 
 void BillboardDemo::Update()
 {
+	sky->Update();
+
 	for (UINT i = 0; i < 10; i++)
 	{
 		sphere[i]->Update();
@@ -86,6 +91,7 @@ void BillboardDemo::Update()
 
 void BillboardDemo::Render()
 {
+	sky->Render();
 	wall->Render();
 	for (UINT i = 0; i < 10; i++)
 	{
